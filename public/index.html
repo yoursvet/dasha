@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дашборд отгрузок товара</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="chart">
+            <div class="branch">
+                <img src="/1.jpg" alt="Филиал 1">
+                <p>Адрес Филиала 1</p>
+                <p><strong>Продукция:</strong> Косметика</p>
+            </div>
+            <div class="branch">
+                <img src="/2.jpg" alt="Филиал 2">
+                <p>Адрес Филиала 2</p>
+                <p><strong>Продукция:</strong> Одежда</p>
+            </div>
+        </div>
+        <div id="table-container">
+            <h2>Таблица данных о филиалах</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Филиал</th>
+                        <th>Суммарное количество</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id="chart-container">
+            <h2>График данных о филиалах</h2>
+            <div id="bar-chart"></div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
